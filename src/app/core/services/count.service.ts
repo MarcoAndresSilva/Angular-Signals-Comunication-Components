@@ -19,4 +19,8 @@ export class CountService {
   sub() {
     this._count.update((c) => c - 1);
   }
+
+  reset() {
+    this._count.set(0);
+  }
 }

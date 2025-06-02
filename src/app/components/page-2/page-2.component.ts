@@ -18,5 +18,8 @@ export class Page2Component {
   sub() {
     this.countService.sub();
   }
+  reset() {
+    this.countService.reset();
+  }
 
 }

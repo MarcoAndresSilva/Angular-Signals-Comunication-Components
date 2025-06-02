@@ -19,4 +19,7 @@ export default class CountComponent {
   sub() {
     this.countService.sub();
   }
+  reset() {
+    this.countService.reset();
+  }
 }

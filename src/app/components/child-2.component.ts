@@ -6,7 +6,7 @@ import { CountService } from "../core/services/count.service";
   selector: 'app-child-2',
   template: `
     <h3>Child 2 </h3>
-    <p class="text-2xl">Count: {{countService.signal()}}</p>
+    <p class="text-2xl">Count: {{countService.count()}}</p>
       <button mat-stroked-button (click)="sub()">Substract</button>
   `,
   standalone: true,

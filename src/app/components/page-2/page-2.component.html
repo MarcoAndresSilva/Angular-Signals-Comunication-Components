@@ -1,5 +1,6 @@
- <h1 class="text-center">Count: {{countService.signal()}}</h1>
+ <h1 class="text-center">Count: {{countService.count()}}</h1>
  <div class="flex gap-4 justify-center">
   <button mat-flat-button (click)="add()">Add</button>
   <button mat-stroked-button (click)="sub()">Substract</button>
+  <button mat-flat-button (click)="reset()">Reset</button>
 </div>
